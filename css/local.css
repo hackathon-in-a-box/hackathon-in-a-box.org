@@ -1,0 +1,17 @@
+.giant {
+  height: 500px; }
+
+#signup-form {
+  display: inline-block; }
+  #signup-form input.email {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px; }
+  #signup-form div.error {
+    color: red;
+    font-size: 10px; }
+
+.logos {
+  padding-top: 20px; }
+  .logos img {
+    padding-right: 10px; }
