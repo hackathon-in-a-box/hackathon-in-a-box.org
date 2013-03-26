@@ -1,0 +1,77 @@
+---
+layout: with-breadcrumbs
+title: Open Data APIs for Community Groups
+parent: Open Data APIs
+parent_path: /open-data-apis/
+---
+
+<div class="hero-unit clearfix">
+  <div class="giant">
+    <img src="/img/little-gear.png" alt="Creating Open Data APIs" />
+  </div>
+  <h1 class="tagline">{{ page.title }}</h1>
+
+  <p>We'll host up to five Foundry APIs for your organization. Sign up below and our developer evangelist will contact you to set you up with an account and send you some details about how to start loading your first datasets. You'll get full access to <a href="http://www.socrata.com/api-foundry/">API Foundry</a> and all our tools to configure and deploy your APIs.</p>
+
+  <!-- Placeholder -->
+  <form id="contact-form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" action="http://discover.socrata.com/index.php/leadCapture/save" name="mktForm_1095">
+    <div class="control-group">
+      <label for="FirstName" class="control-label">First Name:</label>
+      <div class="controls">
+        <input class="first-name required" name="FirstName" id="first-name" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="LastName" class="control-label">Last Name:</label>
+      <div class="controls">
+        <input class="last-name required" name="LastName" id="last-name" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="Company" class="control-label">Organization:</label>
+      <div class="controls">
+        <input class="company" name="Company" id="company" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="Email" class="control-label">Email:</label>
+      <div class="controls">
+        <input class="email required" name="Email" id="email" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="Latest_Prospect_s_Comments__c" class="control-label">Comments</label>  
+      <div class="controls">
+        <textarea class="comments" name="Latest_Prospect_s_Comments__c" id="comments" cols="20" rows="5"></textarea>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <a id="submit-button" class="btn btn-primary">Contact Me</a>
+      </div>
+    </div>
+
+    <!-- Hidden Marketo Schtuff -->
+    <input type="hidden" name="_marketo_comments" value="" />
+    <input type="hidden" name="lpId" value="1905" />
+    <input type="hidden" name="subId" value="147" />
+    <input type="hidden" name="munchkinId" value="851-SII-641" />
+    <input type="hidden" name="kw" value="" />
+    <input type="hidden" name="cr" value="" />
+    <input type="hidden" name="searchstr" value="" />
+    <input type="hidden" name="lpurl" value="http://discover.socrata.com/CommunityEdition_Page.html?cr={creative}&kw={keyword}" />
+    <input type="hidden" name="formid" value="1095" />
+    <input type="hidden" name="returnURL" value="socrata.com" />
+    <input type="hidden" name="retURL" value="socrata.com" />
+    <input type="hidden" name="returnLPId" value="-1" />
+    <input type="hidden" name="_mkt_disp" value="return" />
+    <input type="hidden" name="_mkt_trk" value="id:851-SII-641&token:_mch-socrata.com-1362439796078-70186" />
+  </form>
+
+  <script type="text/javascript" src="/common/js/jquery.validate.min.js"></script>
+  <script type="text/javascript">
+    $("#contact-form").validate({errorElement: "div"});
+    $("#submit-button").click(function() { $("#contact-form").submit() });
+  </script>
+</div>
+

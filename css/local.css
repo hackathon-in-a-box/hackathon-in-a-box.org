@@ -1,17 +1,37 @@
-.giant {
-  height: 500px; }
+.hero-unit {
+  padding-bottom: 0; }
+  .hero-unit .tagline {
+    font-size: 50px; }
 
-#signup-form {
+.jumbotron {
+  margin: 80px 0;
+  text-align: center; }
+
+.jumbotron h1 {
+  font-size: 50px;
+  line-height: 1; }
+
+#contact-form {
   display: inline-block; }
-  #signup-form input.email {
-    padding: 10px;
-    font-size: 18px;
-    margin-top: 10px; }
-  #signup-form div.error {
+  #contact-form div.error {
     color: red;
     font-size: 10px; }
 
-.logos {
-  padding-top: 20px; }
-  .logos img {
-    padding-right: 10px; }
+.logos img {
+  padding-right: 10px; }
+
+.container img {
+  margin: 20px; }
+.container img.border {
+  border: 1px solid #cecece; }
+.container th {
+  border-bottom: 1px solid #cecece; }
+.container td {
+  padding-right: 30px; }
+
+.open-data-actions, .getting-started-actions {
+  position: relative;
+  height: 220px; }
+  .open-data-actions .btn, .getting-started-actions .btn {
+    position: absolute;
+    top: 170px; }

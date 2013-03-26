@@ -1,0 +1,71 @@
+---
+layout: default
+title: Need Help?
+---
+
+<div class="hero-unit clearfix">
+  <div class="giant">
+    <img src="/img/help.png" alt="Need Help?" />
+  </div>
+  <h1 class="tagline">Need a helping hand?</h1>
+
+  <p>Confused about where to start? Need some technical help, or don't know how to build or host your own APIs? The team at <a href="http://www.socrata.com">Socrata</a> is here to help.</p>
+  <p>We offer several options, including a complete package that provides a hosted data site with APIs, event planning, and promotional support.</p>
+  <p>Interested in learning more? Sign up below to have a member of our team contact you to learn about your needs and give you more details.</p>
+
+  <form id="contact-form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" action="http://discover.socrata.com/index.php/leadCapture/save">
+    <input type="hidden" name="lpId" value="-1" />
+    <input type="hidden" name="subId" value="147" />
+    <input type="hidden" name="munchkinId" value="851-SII-641" />
+    <input type="hidden" name="kw" value="" />
+    <input type="hidden" name="cr" value="" />
+    <input type="hidden" name="searchstr" value="" />
+    <input type="hidden" name="lpurl" value="http://discover.socrata.com/HackathonInABox_Page.html?cr={creative}&kw={keyword}" />
+    <input type="hidden" name="formid" value="1088" />
+    <input type="hidden" name="returnURL" value="socrata.com" />
+    <input type="hidden" name="retURL" value="socrata.com" />
+    <input type="hidden" name="returnLPId" value="-1" />
+    <input type="hidden" name="_mkt_disp" value="return" />
+    <input type="hidden" name="_mkt_trk" value="" />
+
+    <div class="control-group">
+      <label for="first-name" class="control-label">First Name:</label>
+      <div class="controls">
+        <input class="first-name required" name="FirstName" id="first-name" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="last-name" class="control-label">Last Name:</label>
+      <div class="controls">
+        <input class="last-name required" name="LastName" id="last-name" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="company" class="control-label">Company:</label>
+      <div class="controls">
+        <input class="company" name="Company" id="company" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="email" class="control-label">Email:</label>
+      <div class="controls">
+        <input class="email required" name="Email" id="email" type="text" maxlength="255"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <a id="submit-button" class="btn btn-primary">Contact Me</a>
+      </div>
+    </div>
+  </form>
+  <div class="logos">
+    <a href="http://www.socrata.com" class="socrata-logo"><img src="/img/socrata-logo.jpg" alt="Socrata" /></a>
+  </div>
+
+
+  <script type="text/javascript" src="/common/js/jquery.validate.min.js"></script>
+  <script type="text/javascript">
+    $("#contact-form").validate({errorElement: "div"});
+    $("#submit-button").click(function() { $("#contact-form").submit() });
+  </script>
+</div>
