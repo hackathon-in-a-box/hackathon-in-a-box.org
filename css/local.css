@@ -29,9 +29,16 @@
 .container td {
   padding-right: 30px; }
 
-.open-data-actions, .getting-started-actions {
+.open-data-actions {
+  position: relative;
+  height: 230px; }
+  .open-data-actions .btn {
+    position: absolute;
+    top: 180px; }
+
+.getting-started-actions {
   position: relative;
   height: 220px; }
-  .open-data-actions .btn, .getting-started-actions .btn {
+  .getting-started-actions .btn {
     position: absolute;
     top: 170px; }
