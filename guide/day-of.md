@@ -1,8 +1,8 @@
 ---
 layout: with-breadcrumbs
 title: The day of the event
-parent: The Hackathon Guide
-parent_path: /guide/
+parents: ["The Hackathon Guide"]
+parent_paths: ["/guide/"]
 ---
 
 # {{ page.title }}
