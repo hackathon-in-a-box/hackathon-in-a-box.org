@@ -9,7 +9,7 @@ title: Creating Open Data APIs
   </div>
   <h1 class="tagline">Creating Open Data APIs</h1>
 
-  <p>Open Data APIs are a critical resource for your hackathon. We have a number of different options to help you provide APIs for your hackathon.</p>
+  <p>Open Data APIs are a critical resource for your hackathon. We have a number of different options to help you provide them.</p>
 </div>
 
 <div class="row-fluid open-data-actions">

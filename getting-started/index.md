@@ -15,7 +15,7 @@ title: Getting Started
 <div class="row-fluid getting-started-actions">
   <div class="span4">
     <h2>The Hackathon Guide</h2>
-    <p>A step-by-step guide on how to run a hackathon. A great resoruce for both the first-time orgainizer and the experienced practitioner.</p>
+    <p>A step-by-step guide on how to run a hackathon. A great resource for both the first-time organizer and the experienced practitioner.</p>
     <a class="btn btn-large" href="/guide/">View the Hackathon Guide</a>
   </div>
   <div class="span4">
