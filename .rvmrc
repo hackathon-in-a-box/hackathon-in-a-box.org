@@ -1,1 +1,1 @@
-rvm --create use 2.0.0@hackathon-in-a-box
+rvm --create use 1.9.2@github-pages
