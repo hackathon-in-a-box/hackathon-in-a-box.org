@@ -15,7 +15,7 @@ title: Creating Open Data APIs
 <div class="row-fluid open-data-actions">
   <div class="span4">
     <h2>Community Groups</h2>
-    <p>We'll host up to five Foundry APIs for your organization. Sign up to learn more!</p>
+    <p>We'll support your event by hosting up to ten Foundry APIs for your organization. Sign up to learn more!</p>
     <a class="btn btn-large" href="/open-data-apis/community-groups.html">Sign Up</a>
   </div>
   <div class="span4">
