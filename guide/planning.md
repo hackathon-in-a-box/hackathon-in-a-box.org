@@ -42,9 +42,9 @@ Make sure you have someplace for attendees to learn more about your event and si
 
 Building a web presence doesn't have to break the bank. A simple one-page site will suffice, and you can use tools like [GitHub Pages](http://pages.github.com) or [Smore](https://www.smore.com/) can be used to create them quickly and easily.
 
-For creating a quick and easy way for attendees to sign up, I highly recommend [EventBrite](https://www.eventbrite.com). They provide all the tools you'll need, including an easy way for attendees to pay for tickets if you'll be charging. Your event will also show up in their event calendars, which will help with marketing.
+Dedicated hackathon platforms such as [ChallengePost](http://post.challengepost.com/hackathons) are also available. These platforms are designed to completely support your event, including showcasing your attendees's projects. 
 
-Check out our [resources]({{ hiab_domain }}/resources) section for some handy templates you can use and instructions on how to set them up.
+For creating a quick and easy way for attendees to sign up, I highly recommend [EventBrite](https://www.eventbrite.com). They provide all the tools you'll need, including an easy way for attendees to pay for tickets if you'll be charging. Your event will also show up in their event calendars, which will help with marketing.
 
 <img src="/img/codeacrossnyc.jpg" alt="Code Across NYC participants" class="pull-right" />
 
@@ -57,6 +57,7 @@ At least one month out, and preferably closer to three months, start marketing y
 * Send out teasers about your event on Twitter, and see if you can get well-connected individuals to spread the word as well.
 * Post announcements to forums like [Hacker News](http://news.ycombinator.com/) or [Reddit](http://reddit.com) (look for a "subreddit" specific to your area).
 * Contact bloggers like Kin Lane from [The API Evangelist](http://apievangelist.com/) and ask them to help get the word out.
+* If you are using [ChallengePost](http://post.challengepost.com/hackathons) to power your hackathon, they will also get the word out to their local network for you.
 * And of course, [Socrata](http://www.socrata.com) will be more than glad to get the word out to our network as well. Make sure you [let us know about your event]({{ hiab_domain }}/hosting-an-event).
 
 Here are some websites to check out for ideas on how to market your event:
