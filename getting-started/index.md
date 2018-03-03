@@ -4,6 +4,8 @@ title: Getting Started
 redirect_from:
   - /contact-us
   - /open-data-apis
+  - /contact-us/
+  - /open-data-apis/
 ---
 
 <div class="hero-unit clearfix">
