@@ -5,3 +5,6 @@ ga_tracking_code: "UA-9046230-6"
 subsite: hiab
 subsite_name: Hackathon in a Box
 github_repo: "https://github.com/hackathon-in-a-box/hackathon-in-a-box.org"
+
+plugins:
+  - jekyll-redirect-from
